@@ -1,0 +1,45 @@
+.font-variable {
+        font-size: 6vw;
+        font-family: 'Orbitron', sans-serif;
+        color: #6c757d;
+        position: absolute;
+        margin-bottom:-15%
+
+}
+
+.covid-img {
+        max-height: 140px;
+    padding-bottom: 20px;
+ }
+ .thumbnail {
+        position: relative;
+     }
+    
+  
+   .caption {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: wheat;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 6vw;
+ }
+
+ .my-card
+{
+    border: 1px solid blue;
+    width:80%
+}
+
+* {
+        font-family: 'Inconsolata', monospace;
+}
+
+@media screen and (max-width:767px){
+        .tc {
+                text-align:center;
+                align-items: center
+        }
+}

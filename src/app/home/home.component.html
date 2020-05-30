@@ -1,0 +1,60 @@
+<div class="col-sm-12 font-variable text-center">
+  <span>C</span>
+  <img src="../../../assets/images/covid.png" class="covid-img"> 
+  <span>VID-19</span> 
+</div>
+ 
+<!-- <div class="thumbnail">
+  <img src="../../../assets/images/covid-19bg.jpg"  height="400" width="100%" alt="" style="object-fit: cover;">
+  <div class="caption">
+      COVID-19  
+  </div>
+</div> -->
+<br><br><br><br><br><br>
+<div class="col-12 text-center">
+ Last Updated at {{upToDate | date:'medium'}}
+</div>
+<div class="col-12">
+  <div class="row">
+    <div class="col-md-11 offset-md-1 tc">
+     <h1 style="color: #474747; font-weight: bold"> Global Statistics</h1>
+    </div>
+  </div>
+   <div class="row">
+     <div class="col-md-1"></div>
+    <div class="col-md-4  tc">
+      <span style="font-size: 60px;" class="text-primary"> {{TotalConfirmed | number}}</span>
+      <h2>  Total Confirmed </h2>
+      <h4><b> {{NewConfirmed | number}}</b> New Confirmed</h4>
+      <sup>Source: World Health Organization  </sup>
+      <br>
+      <span style="font-size: 60px;" class="text-danger"> {{TotalDeaths | number}}</span>
+      <h2>  Total Deaths </h2>
+      <h4><b> {{NewDeaths | number}}</b> New Deaths</h4>
+      <sup>Source: World Health Organization</sup>
+      <br>
+      <span style="font-size: 60px;" class="text-success"> {{TotalRecovered | number}}</span>
+      <h2>  Total Recovered  </h2>
+      <h4><b> {{NewRecovered | number}}</b> New Recovered</h4>
+      <sup>Source: World Health Organization </sup>
+    </div> 
+    <div class="col-md-6">
+      <canvas id="myChart" width="400" ></canvas>
+      <br>
+      <canvas id="myChartPie" width="400" ></canvas>
+    </div>
+    <div class="col-md-1"></div>
+    <!-- <div class="col-md-4 text-center">
+      <span style="font-size: 60px;" class="text-danger"> {{371913 | number}}</span>
+      <h2>  Total Deaths </h2>
+      <h4><b> {{4640 | number}}</b> New Deaths</h4>
+      <sup>Source: World Health Organization</sup>
+    </div>
+    <div class="col-md-4 text-center">
+      <span style="font-size: 60px;" class="text-success"> {{2492884 | number}}</span>
+      <h2>  Total Recovered  </h2>
+      <h4><b> {{77575 | number}}</b> New Recovered</h4>
+      <sup>Source: World Health Organization </sup>
+    </div> -->
+   </div>
+  </div>
